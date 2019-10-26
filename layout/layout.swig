@@ -43,12 +43,16 @@
             }
         }
 
-        .footer {
+        .footer-links {
             border-top: solid 1px #231815;
         }
 
+        .footer-links a {
+            margin-right: 1em;
+        }
+
         .footer-info {
-            border-top: solid 1px #6B6B6B;
+            border-top: solid 1px #E6E6E6;
         }
 
         .nav-link {
@@ -88,10 +92,11 @@
     {{ body }}
 
     <footer class="footer mt-5">
-        <p class="footer-links">
-            <a href=""></a>
+        <p class="footer-links pt-3 mt-3 mb-3">
+            <a href="https://www.muji.com.cn">MUJI 中国官网</a>
+            <a href="https://crowall.com">CroWall</a>
         </p>
-        <p class="footer-info mb-3">
+        <p class="footer-info mb-3 pt-2">
             Copyright &copy; 2019 <a href="{{ theme.url }}">{{ theme.title }}</a>.
             <span style="display:inline-block;float:right;">
                 Powered by <a href="https://hexo.io">Hexo</a> and <a href="https://github.com/lucups/hexo-theme-muji">hexo-theme-muji</a>.
