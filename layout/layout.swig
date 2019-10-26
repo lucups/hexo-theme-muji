@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="/css/bootstrap-cosmo.css">
     <style>
         * {
-            font-size: 13px;
+            font-size: 14px;
         }
 
         a {
@@ -27,12 +27,12 @@
 
         .muji-nav {
             background: #7F0019 !important;
-            line-height: 4px;
-            font-size: 13px;
+            line-height: 8px;
+            font-size: 14px;
         }
 
         .navbar-brand {
-            font-size: 14px;
+            font-size: 16px;
             font-weight: bold;
             text-decoration: none;
         }
