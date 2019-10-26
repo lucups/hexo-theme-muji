@@ -10,6 +10,7 @@ rss: /atom.xml
 # Content
 excerpt_link: Read More
 fancybox: true
+code_style: vs.css
 
 # Sidebar
 sidebar: right

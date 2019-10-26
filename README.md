@@ -1,4 +1,4 @@
-# hexo-theme-muji 
+# hexo-theme-muji (IN DEVELOPMENT)
 
 > [简体中文版](README_zh-CN.md)
 

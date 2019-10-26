@@ -8,9 +8,23 @@
     {% if theme.favicon %}
         <link rel="icon" href="{{ theme.favicon }}">
     {% endif %}
-    <title>{{ config.title }}</title>
+    <title>{{ theme.title }}</title>
     <link rel="stylesheet" href="/css/bootstrap-cosmo.css">
     <style>
+        * {
+            font-size: 13px;
+        }
+
+        a {
+            color: #231815;
+            text-decoration: underline;
+        }
+
+        a:hover {
+            color: #7F0019;
+            text-decoration: underline;
+        }
+
         .muji-nav {
             background: #7F0019 !important;
             line-height: 4px;
@@ -20,6 +34,7 @@
         .navbar-brand {
             font-size: 14px;
             font-weight: bold;
+            text-decoration: none;
         }
 
         @media (min-width: 910px) {
@@ -27,7 +42,25 @@
                 width: 910px;
             }
         }
+
+        .footer {
+            border-top: solid 1px #231815;
+        }
+
+        .footer-info {
+            border-top: solid 1px #6B6B6B;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .nav-link:hover {
+            opacity: 0.6;
+        }
     </style>
+    {#    <link rel="stylesheet" href="/css/highlight/{{ theme.code_style }}">#}
 </head>
 <body>
 
@@ -53,7 +86,20 @@
 
 <div class="container">
     {{ body }}
+
+    <footer class="footer mt-5">
+        <p class="footer-links">
+            <a href=""></a>
+        </p>
+        <p class="footer-info mb-3">
+            Copyright &copy; 2019 <a href="{{ theme.url }}">{{ theme.title }}</a>.
+            <span style="display:inline-block;float:right;">
+                Powered by <a href="https://hexo.io">Hexo</a> and <a href="https://github.com/lucups/hexo-theme-muji">hexo-theme-muji</a>.
+            </span>
+        </p>
+    </footer>
 </div>
+
 
 <script src="/js/jquery-3.3.1.min.js"></script>
 <script src="/js/bootstrap.bundle.min.js"></script>
