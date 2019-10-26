@@ -1,5 +1,5 @@
-{% extends 'layout.swig' %}
+<h1>{{ page.title }}</h1>
 
-{% block main %}
-    <h1>Hello, this is post page!</h1>
-{% endblock %}
+<article>
+    {{ page.content }}
+</article>
