@@ -13,8 +13,9 @@
         <h2>{{ __('recent_posts') }}</h2>
         <ul>
             {% for post in page.posts %}
-                <li><a href="{{ url_for(post.path) }}">{{ post.title }}</a></li>
+                <li>{{ date(post.date, 'YYYY-MM-DD') }} <a href="{{ url_for(post.path) }}">{{ post.title }}</a></li>
             {% endfor %}
+            <li><a href="{{ url_for('/archives') }}">{{ __('view_more') }}</a></li>
         </ul>
     </div>
     <div class="col-md-6 col-12">

@@ -10,7 +10,7 @@
             <a href="{{ url_for('/categories/'+category.name) }}">{{ category.name }}</a>
             <ul>
                 {% for post in category.posts %}
-                    <li><a href="{{ url_for(post.path) }}">{{ post.title }}</a></li>
+                    <li>{{ date(post.date, 'YYYY-MM-DD') }} <a href="{{ url_for(post.path) }}">{{ post.title }}</a></li>
                 {% endfor %}
             </ul>
         </li>

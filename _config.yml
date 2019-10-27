@@ -6,6 +6,8 @@ keyword: engineer tony
 favicon: /tony.ico
 avatar: /tony.png
 slogan: 就这么吹来吹去~
+wechat_qr: /img/wechat-tony.jpg
+github_url: https://github.com/lucups
 
 # 菜单配置
 menu:

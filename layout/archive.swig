@@ -17,7 +17,7 @@
         <li>{{ year }}
             <ul>
                 {% for post in years[year] %}
-                    <li><a href="{{ url_for(post.path) }}">{{ post.title }}</a></li>
+                    <li>{{ date(post.date, 'MM-DD') }} <a href="{{ url_for(post.path) }}">{{ post.title }}</a></li>
                 {% endfor %}
             </ul>
         </li>
