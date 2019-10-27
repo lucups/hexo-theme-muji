@@ -1,4 +1,13 @@
-# Header
+# 站点&个人信息配置
+title: 托尼吹雪
+author: 陆健
+description: 个人主页
+keyword: engineer tony
+favicon: /tony.ico
+avatar: /tony.png
+slogan: 就这么吹来吹去~
+
+# 菜单配置
 menu:
     Home: /
     Archives: /archives
@@ -6,8 +15,6 @@ menu:
     Tags: /tags
     About: /about
 rss: /atom.xml
-
-avatar: /tony.png
 
 # Content
 excerpt_link: Read More
@@ -36,7 +43,6 @@ show_count: false
 # Miscellaneous
 google_analytics:
 gauges_analytics:
-favicon: /tony.ico
 twitter:
 google_plus:
 fb_admins:

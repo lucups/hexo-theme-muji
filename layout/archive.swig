@@ -1,4 +1,4 @@
-<h1>{{ __('Archives') }}</h1>
+<h1 class="pt-3">{{ __('Archives') }}</h1>
 
 {% set years = {} %}
 {% for post in site.posts %}

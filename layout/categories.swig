@@ -1,7 +1,7 @@
 {% if page.tag %}
-    <h1><a href="{{ url_for('categories') }}">{{ __('Categories') }}</a> #{{ page.category }}</h1>
+    <h1 class="pt-3"><a href="{{ url_for('categories') }}">{{ __('Categories') }}</a> #{{ page.category }}</h1>
 {% else %}
-    <h1><a href="{{ url_for('categories') }}">{{ __('Categories') }}</a></h1>
+    <h1 class="pt-3"><a href="{{ url_for('categories') }}">{{ __('Categories') }}</a></h1>
 {% endif %}
 
 <ul>

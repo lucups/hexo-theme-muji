@@ -63,6 +63,20 @@
         .nav-link:hover {
             opacity: 0.6;
         }
+
+        h1 {
+            font-size: 2rem;
+        }
+
+        h1 a {
+            font-size: 2rem;
+            text-decoration: none;
+        }
+
+        .badge {
+            text-decoration: none;
+        }
+
     </style>
     {#    <link rel="stylesheet" href="/css/highlight/{{ theme.code_style }}">#}
 </head>
