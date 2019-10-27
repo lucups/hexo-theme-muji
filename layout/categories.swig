@@ -1,5 +1,6 @@
 <h1>{{ __('Categories') }}</h1>
 
+
 <ul>
     {% for category in site.categories %}
         <li>
