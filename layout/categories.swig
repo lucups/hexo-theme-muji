@@ -1,13 +1,15 @@
-<h1>{{ __('Tags') }}</h1>
+<h1>{{ __('Categories') }}</h1>
+
 <ul>
-    {% for tag in site.tags %}
+    {% for category in site.categories %}
         <li>
-            <a href="{{ url_for('/tags/'+tag.name) }}">#{{ tag.name }}</a>
+            {{ category.name }}
             <ul>
-                {% for post in tag.posts %}
+                {% for post in category.posts %}
                     <li><a href="{{ url_for(post.path) }}">{{ post.title }}</a></li>
                 {% endfor %}
             </ul>
         </li>
     {% endfor %}
 </ul>
+

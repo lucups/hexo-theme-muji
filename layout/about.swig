@@ -1,2 +1,1 @@
-
-<h1>About Page</h1>
+<h1>{{ __('About') }}</h1>
