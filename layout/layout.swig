@@ -10,6 +10,7 @@
     {% endif %}
     <title>{{ theme.title }}</title>
     <link rel="stylesheet" href="/css/bootstrap-cosmo.css">
+    <link rel="stylesheet" href="/css/code.css">
     <style>
         * {
             font-size: 14px;
@@ -77,8 +78,12 @@
             text-decoration: none;
         }
 
+        .display-5 {
+            font-size: 3em;
+            font-weight: 300;
+            line-height: 1;
+        }
     </style>
-    {#    <link rel="stylesheet" href="/css/highlight/{{ theme.code_style }}">#}
 </head>
 <body>
 
@@ -113,12 +118,12 @@
         <p class="footer-info mb-3 pt-2">
             Copyright &copy; 2019 <a href="{{ theme.url }}">{{ theme.title }}</a>.
             <span style="display:inline-block;float:right;">
-                Powered by <a href="https://hexo.io">Hexo</a> and <a href="https://github.com/lucups/hexo-theme-muji">hexo-theme-muji</a>.
-            </span>
+                        Powered by <a href="https://hexo.io">Hexo</a>
+                        and <a href="https://github.com/lucups/hexo-theme-muji">hexo-theme-muji</a>.
+                    </span>
         </p>
     </footer>
 </div>
-
 
 <script src="/js/jquery-3.3.1.min.js"></script>
 <script src="/js/bootstrap.bundle.min.js"></script>

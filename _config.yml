@@ -1,7 +1,7 @@
 # 站点&个人信息配置
 title: 托尼吹雪
 author: 陆健
-description: 个人主页
+description: 一个没有脱离低级趣味(装13)的人...
 keyword: engineer tony
 favicon: /tony.ico
 avatar: /tony.png
@@ -12,10 +12,10 @@ github_url: https://github.com/lucups
 # 菜单配置
 menu:
     Home: /
-    Archives: /archives
-    Categories: /categories
-    Tags: /tags
-    About: /about
+    Archives: /archives/
+    Categories: /categories/
+    Tags: /tags/
+    About: /about/
 rss: /atom.xml
 
 # Content

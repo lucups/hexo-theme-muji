@@ -6,16 +6,10 @@
         {% for tag in site.tags %}
             <li>
                 <a href="{{ url_for('/tags/'+tag.name) }}">#{{ tag.name }}</a>
-                {#            <ul>#}
-                {#                {% for post in tag.posts %}#}
-                {#                    <li><a href="{{ url_for(post.path) }}">{{ post.title }}</a></li>#}
-                {#                {% endfor %}#}
-                {#            </ul>#}
             </li>
         {% endfor %}
     </ul>
 {% endif %}
-
 
 <ul>
     {% for post in page.posts %}

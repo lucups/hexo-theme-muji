@@ -1,10 +1,6 @@
 <div class="pt-3">
-    <div class="jumbotron">
-        <h1 class="display-4">{{ theme.slogan }}</h1>
-        {#        <p class="lead">{{ theme.slogan }}</p>#}
-        {#        <hr class="my-4">#}
-        {#        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>#}
-        {#        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>#}
+    <div class="jumbotron text-center">
+        <h1 class="display-5">{{ theme.slogan }}</h1>
     </div>
 </div>
 
@@ -19,5 +15,18 @@
         </ul>
     </div>
     <div class="col-md-6 col-12">
+        <h2>{{ __('Categories') }}</h2>
+        {% set categories = [] %}
+        {% for idx, _c in site.categories %}
+            {% set categories[idx] = '<a href="'+url_for('/categories/'+_c.name)+'">'+_c.name+'</a>' %}
+        {% endfor %}
+        {{ categories|join(' / ') }}
+
+        <h2 class="mt-4">{{ __('Tags') }}</h2>
+        {% set tags = [] %}
+        {% for idx, _c in site.tags %}
+            {% set tags[idx] = '<a href="'+url_for('/tags/'+_c.name)+'">#'+_c.name+'</a>' %}
+        {% endfor %}
+        {{ tags|join(' · ') }}
     </div>
 </div>
