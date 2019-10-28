@@ -1,16 +1,38 @@
-# hexo-theme-muji（尚在开发中）
+# hexo-theme-muji
 
 > [English Version](README.md)
 
-一款 MUJI 风格的 Hexo 主题。
+一款借鉴 MUJI 风格的 Hexo 主题。
 
+### 截图
+
+![](screenshots/01.png)
+
+### 安装
+
+第一步: 下载 `hexo-theme-muji`
+
+```
+cd your-hexo-home
+git clone https://github.com/lucups/hexo-theme-muji.git themes/muji
+```
+
+第二步: 更新全局配置文件 `your-hexo-home/_config.yml`，设置使用 `muji` 主题:
+
+```
+theme: muji
+```
+
+### 配置
+
+// TODO
 
 ### 色彩
 
 ![MUJI 色彩](source/img/muji-colors.png)
 
-### 参考资料
+### 待办
 
-- https://www.muji.com.cn/cn/net/contents/contact/faq/
-- https://www.muji.net/lab/zh-cn/living/
-- https://www.muji.net/lab/zh-cn/living/170531.html
+- [] 首页重构，丰富配置项
+- [] 支持搜索功能
+- [] 优化移动端显示效果

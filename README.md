@@ -1,8 +1,12 @@
-# hexo-theme-muji (IN DEVELOPMENT)
+# hexo-theme-muji
 
 > [简体中文版说明文档](README_zh-CN.md)
 
 A hexo theme in MUJI style.
+
+### Screenshots
+
+![](screenshots/01.png)
 
 ### Install 
 
@@ -21,8 +25,10 @@ theme: muji
 
 ### Configuration
 
+// TODO
 
 ### Colors Reference
 
 ![MUJI Colors](source/img/muji-colors.png)
 
+### TODO
